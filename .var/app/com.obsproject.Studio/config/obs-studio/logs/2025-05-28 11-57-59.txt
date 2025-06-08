@@ -1,0 +1,175 @@
+11:57:59.605: Platform: Wayland
+11:57:59.605: CPU Name: Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
+11:57:59.605: CPU Speed: 1600.218MHz
+11:57:59.605: Physical Cores: 4, Logical Cores: 8
+11:57:59.605: Physical Memory: 11794MB Total, 5055MB Free
+11:57:59.605: Kernel Version: Linux 6.14.7-arch2-1
+11:57:59.605: Flatpak Branch: stable
+11:57:59.605: Flatpak Arch: x86_64
+11:57:59.605: Flatpak Runtime: runtime/org.kde.Platform/x86_64/6.6
+11:57:59.606: App Extensions:
+11:57:59.606:  - com.obsproject.Studio.Locale
+11:57:59.606: Runtime Extensions:
+11:57:59.606:  - org.freedesktop.Platform.GL.default
+11:57:59.606:  - org.freedesktop.Platform.VAAPI.Intel
+11:57:59.606:  - org.freedesktop.Platform.openh264
+11:57:59.606:  - org.gtk.Gtk3theme.Breeze
+11:57:59.606:  - org.kde.Platform.Locale
+11:57:59.606:  - org.freedesktop.Platform.GL.default
+11:57:59.606: Flatpak Framework Version: 1.16.1
+11:57:59.606: Desktop Environment: KDE (KDE)
+11:57:59.606: Session Type: wayland
+11:57:59.611: Qt Version: 6.6.3 (runtime), 6.6.3 (compiled)
+11:57:59.611: Portable mode: false
+11:57:59.706: OBS 31.0.3 (linux)
+11:57:59.706: ---------------------------------
+11:57:59.708: ---------------------------------
+11:57:59.708: audio settings reset:
+11:57:59.708: 	samples per sec: 48000
+11:57:59.708: 	speakers:        2
+11:57:59.708: 	max buffering:   960 milliseconds
+11:57:59.708: 	buffering type:  dynamically increasing
+11:57:59.709: ---------------------------------
+11:57:59.709: Initializing OpenGL...
+11:57:59.709: Using EGL/Wayland
+11:57:59.724: Initialized EGL 1.5
+11:57:59.765: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics (CML GT2)
+11:57:59.766: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.0.5 (git-a89e404408), shading language 4.60
+11:58:00.124: ---------------------------------
+11:58:00.124: video settings reset:
+11:58:00.124: 	base resolution:   1366x768
+11:58:00.124: 	output resolution: 1092x614
+11:58:00.124: 	downscale filter:  Bicubic
+11:58:00.124: 	fps:               30/1
+11:58:00.124: 	format:            NV12
+11:58:00.124: 	YUV mode:          Rec. 709/Partial
+11:58:00.124: NV12 texture support enabled
+11:58:00.124: P010 texture support not available
+11:58:00.136: Audio monitoring device:
+11:58:00.136: 	name: Default
+11:58:00.136: 	id: default
+11:58:00.136: ---------------------------------
+11:58:00.179: No AJA devices found, skipping loading AJA UI plugin
+11:58:00.179: Failed to initialize module 'aja-output-ui.so'
+11:58:00.209: No AJA devices found, skipping loading AJA plugin
+11:58:00.209: Failed to initialize module 'aja.so'
+11:58:00.609: [pipewire] Available capture sources:
+11:58:00.609: [pipewire]     - Monitor source
+11:58:00.609: [pipewire]     - Window source
+11:58:00.654: v4l2loopback not installed, virtual camera not registered
+11:58:00.672: [obs-browser]: Version 2.24.6
+11:58:00.672: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.0.0-6533-fix-stutter.3039+g9d68db8+chromium-127.0.6533.120 (compiled)
+11:58:00.692: VAAPI: API version 1.19
+11:58:00.693: FFmpeg VAAPI H264 encoding supported
+11:58:00.695: FFmpeg VAAPI AV1 encoding not supported
+11:58:00.697: FFmpeg VAAPI HEVC encoding supported
+11:58:00.743: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+11:58:00.743: 
+11:58:00.743: NVENC not supported
+11:58:00.743: Failed to initialize module 'obs-nvenc.so'
+11:58:00.862: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.6 | RPC Version: 1)
+11:58:00.862: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.6.3 | Qt version (run-time): 6.6.3
+11:58:00.862: [obs-websocket] [obs_module_load] Linked ASIO Version: 103100
+11:58:00.862: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+11:58:00.862: [obs-websocket] [Config::Load] Existing configuration not found, using defaults.
+11:58:00.862: [obs-websocket] [Config::Load] (FirstLoad) Generating new server password.
+11:58:00.877: [obs-websocket] [obs_module_load] Module loaded.
+11:58:00.918: ---------------------------------
+11:58:00.918:   Loaded Modules:
+11:58:00.918:     text-freetype2.so
+11:58:00.918:     rtmp-services.so
+11:58:00.918:     obs-x264.so
+11:58:00.918:     obs-websocket.so
+11:58:00.918:     obs-webrtc.so
+11:58:00.918:     obs-vst.so
+11:58:00.918:     obs-transitions.so
+11:58:00.918:     obs-qsv11.so
+11:58:00.918:     obs-outputs.so
+11:58:00.918:     obs-libfdk.so
+11:58:00.918:     obs-filters.so
+11:58:00.918:     obs-ffmpeg.so
+11:58:00.918:     obs-browser.so
+11:58:00.918:     linux-v4l2.so
+11:58:00.918:     linux-pulseaudio.so
+11:58:00.918:     linux-pipewire.so
+11:58:00.918:     linux-jack.so
+11:58:00.918:     linux-capture.so
+11:58:00.918:     image-source.so
+11:58:00.918:     frontend-tools.so
+11:58:00.918: ---------------------------------
+11:58:00.919: ---------------------------------
+11:58:00.919: Available Encoders:
+11:58:00.919:   Video Encoders:
+11:58:00.919: 	- ffmpeg_svt_av1 (SVT-AV1)
+11:58:00.919: 	- ffmpeg_aom_av1 (AOM AV1)
+11:58:00.919: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+11:58:00.919: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+11:58:00.919: 	- obs_qsv11_v2 (QuickSync H.264)
+11:58:00.919: 	- obs_qsv11_hevc (QuickSync HEVC)
+11:58:00.919: 	- obs_x264 (x264)
+11:58:00.919:   Audio Encoders:
+11:58:00.919: 	- ffmpeg_aac (FFmpeg AAC)
+11:58:00.919: 	- ffmpeg_opus (FFmpeg Opus)
+11:58:00.919: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+11:58:00.919: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+11:58:00.919: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+11:58:00.919: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+11:58:00.919: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+11:58:00.919: 	- libfdk_aac (libfdk AAC)
+11:58:00.919: ==== Startup complete ===============================================
+11:58:00.932: No scene file found, creating default scene
+11:58:00.993: All scene data cleared
+11:58:00.993: ------------------------------------------------
+11:58:01.022: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+11:58:01.022: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+11:58:01.022: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__Speaker__sink.monitor' (default)
+11:58:01.023: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+11:58:01.024: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+11:58:01.024: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__Mic1__source' (default)
+11:58:01.027: Switched to scene 'Scene'
+11:58:01.027: Created scene collection 'Untitled' (clean, Untitled.json)
+11:58:01.027: ------------------------------------------------
+11:58:01.671: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+11:58:01.671: 
+11:58:02.306: [rtmp-services plugin] Successfully updated file 'services.json' (version 272)
+11:58:02.306: [rtmp-services plugin] Successfully updated package (version 272)
+11:58:18.850: 
+11:58:18.850: ==== Auto-config wizard testing commencing ======
+
+11:58:22.303: Number of remaining views: 1
+11:58:22.303: ---------------------------------
+11:58:22.303: video settings reset:
+11:58:22.303: 	base resolution:   1366x768
+11:58:22.303: 	output resolution: 1280x720
+11:58:22.303: 	downscale filter:  Bicubic
+11:58:22.303: 	fps:               60/1
+11:58:22.303: 	format:            NV12
+11:58:22.303: 	YUV mode:          Rec. 709/Partial
+11:58:22.303: NV12 texture support enabled
+11:58:22.303: P010 texture support not available
+11:58:22.312: 
+11:58:22.312: ==== Auto-config wizard testing stopping ========
+
+11:58:38.513: PipeWire initialized
+11:58:38.520: User added source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) to scene 'Scene'
+11:58:38.571: [pipewire] Screencast session created
+11:58:38.610: [pipewire] Asking for monitor and window
+11:58:46.209: [pipewire] source selected, setting up screencast
+11:58:46.233: [pipewire] Server version: 1.4.2
+11:58:46.233: [pipewire] Library version: 0.3.83
+11:58:46.233: [pipewire] Header version: 0.3.83
+11:58:46.233: [pipewire] Created stream 0x563fdddd3420
+11:58:46.233: [pipewire] Stream 0x563fdddd3420 state: "connecting" (error: none)
+11:58:46.234: [pipewire] Playing stream 0x563fdddd3420
+11:58:46.235: [pipewire] Stream 0x563fdddd3420 state: "paused" (error: none)
+11:58:46.314: [pipewire] Negotiated format:
+11:58:46.314: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+11:58:46.314: [pipewire]     Modifier: 0x0
+11:58:46.314: [pipewire]     Size: 1366x768
+11:58:46.314: [pipewire]     Framerate: 0/1
+11:58:46.317: [pipewire] Negotiated format:
+11:58:46.317: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+11:58:46.317: [pipewire]     Modifier: 0x100000000000004
+11:58:46.317: [pipewire]     Size: 1366x768
+11:58:46.317: [pipewire]     Framerate: 0/1
+11:58:46.330: [pipewire] Stream 0x563fdddd3420 state: "streaming" (error: none)
