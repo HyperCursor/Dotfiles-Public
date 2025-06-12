@@ -1,4 +1,4 @@
-# 🧪 HyperCursor's Dotfiles
+# Dotfiles
 
 Hello! Welcome to my dotfiles — my personal collection of my configs I use on my Arch system
 
